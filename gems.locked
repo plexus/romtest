@@ -1,0 +1,94 @@
+PATH
+  remote: /home/arne/github/rom
+  specs:
+    rom (0.9.1)
+      equalizer (~> 0.0, >= 0.0.9)
+      rom-mapper (~> 0.2, >= 0.2.0)
+      rom-support (~> 0.1, >= 0.1.0)
+      transproc (~> 0.3, >= 0.3.0)
+
+PATH
+  remote: /home/arne/github/rom-http
+  specs:
+    rom-http (0.1.2)
+      equalizer (~> 0.0, >= 0.0.9)
+      rom (~> 0.9, >= 0.9.0)
+      thread_safe
+
+PATH
+  remote: /home/arne/github/rom-repository
+  specs:
+    rom-repository (0.1.0)
+      anima (~> 0.2, >= 0.2)
+      rom (~> 0.9, >= 0.9.0)
+      rom-mapper (~> 0.2, >= 0.2.0)
+      rom-support (~> 0.1, >= 0.1.0)
+
+PATH
+  remote: /home/arne/github/rom-sql
+  specs:
+    rom-sql (0.6.1)
+      equalizer (~> 0.0, >= 0.0.9)
+      rom (~> 0.9, >= 0.9.0)
+      sequel (~> 4.18)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    abstract_type (0.0.7)
+    adamantium (0.2.0)
+      ice_nine (~> 0.11.0)
+      memoizable (~> 0.4.0)
+    anima (0.2.0)
+      abstract_type (~> 0.0.7)
+      adamantium (~> 0.1)
+      equalizer (~> 0.0.8)
+    axiom-types (0.1.1)
+      descendants_tracker (~> 0.0.4)
+      ice_nine (~> 0.11.0)
+      thread_safe (~> 0.3, >= 0.3.1)
+    coercible (1.0.0)
+      descendants_tracker (~> 0.0.1)
+    descendants_tracker (0.0.4)
+      thread_safe (~> 0.3, >= 0.3.1)
+    equalizer (0.0.11)
+    faraday (0.9.1)
+      multipart-post (>= 1.2, < 3)
+    ice_nine (0.11.1)
+    inflecto (0.0.2)
+    memoizable (0.4.2)
+      thread_safe (~> 0.3, >= 0.3.1)
+    multipart-post (2.0.0)
+    rcodetools (0.8.5.0)
+    rom-mapper (0.2.0)
+      equalizer (~> 0.0, >= 0.0.10)
+      rom-support (~> 0.1, >= 0.1.0)
+      transproc (~> 0.3)
+    rom-support (0.1.0)
+      wisper (~> 1.6, >= 1.6.0)
+    sequel (4.26.0)
+    sqlite3 (1.3.10)
+    thread_safe (0.3.5)
+    transproc (0.3.2)
+    virtus (1.0.5)
+      axiom-types (~> 0.1)
+      coercible (~> 1.0)
+      descendants_tracker (~> 0.0, >= 0.0.3)
+      equalizer (~> 0.0, >= 0.0.9)
+    wisper (1.6.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  faraday
+  inflecto
+  rcodetools
+  rom!
+  rom-http!
+  rom-mapper!
+  rom-repository!
+  rom-sql!
+  sequel
+  sqlite3
+  virtus

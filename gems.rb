@@ -1,0 +1,13 @@
+source 'https://rubygems.org'
+
+gem 'rom', path: '/home/arne/github/rom'
+gem 'rom-sql', path: '/home/arne/github/rom-sql'
+gem 'rom-mapper', path: '/home/arne/github/rom-sql'
+gem 'rom-repository', path: '/home/arne/github/rom-repository'
+gem 'rom-http', path: '/home/arne/github/rom-http'
+gem 'sequel'
+gem 'virtus'
+gem 'sqlite3'
+gem 'inflecto'
+gem 'rcodetools'
+gem 'faraday'
